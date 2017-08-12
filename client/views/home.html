@@ -1,0 +1,14 @@
+<div ng-controller="ChampionGetController">
+    <div ng-repeat="post in champions" class="border">
+          <div id="info">
+            <b>Champion</b> : {{post.Champion}}
+            <br>
+            <button ng-click="getRole(post.Role)"><b>Role</b> : {{post.Role}}</button>
+          </div>
+
+          <div id="imageContainer">
+            <img ng-click="getChampion(post.id)"src="{{post.Image}}" style="height:300px";"width:300px">  
+          </div>
+          
+    </div>
+</div>

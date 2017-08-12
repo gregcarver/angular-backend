@@ -1,0 +1,17 @@
+#imageContainer{
+    height:300px;
+    width:300px;
+    margin:auto;
+}
+#info{
+    text-align: center;
+    font-size:24px;
+    color:white;
+}
+.border{
+    border:5px solid green;
+    margin:2em;
+    margin-left:25%;
+    margin-right:25%;
+    background-color:purple;
+}

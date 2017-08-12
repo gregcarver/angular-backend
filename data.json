@@ -1,0 +1,61 @@
+[{
+    "id" : "1",
+    "Champion" : "Rakan",
+    "Role" : "Support",
+    "Image" : "https://i.ytimg.com/vi/YWng39USD1E/maxresdefault.jpg"
+},
+{
+    "id" : "2",
+    "Champion" : "Xayah",
+    "Role" : "Marksman",
+    "Image" : "https://cdn.vox-cdn.com/thumbor/-kaLZN5m5WRldq8Ryc5kHUfDI8A=/0x0:473x649/1200x800/filters:focal(114x157:188x231)/cdn.vox-cdn.com/uploads/chorus_image/image/54073445/Screen_Shot_2017_04_04_at_1.24.54_PM.0.png"
+},
+{
+    "id" : "3",
+    "Champion" : "Illaoi",
+    "Role" : "Bruiser",
+    "Image" : "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg"
+},
+{
+    "id" : "4",
+    "Champion" : "Aurelion Sol",
+    "Role" : "Mage",
+    "Image" : "http://na.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/header.jpg?itok=KIRQalbW"
+},
+{
+    "id" : "5",
+    "Champion" : "Kayn",
+    "Role" : "Jungler",
+    "Image" : "https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-kayn-reveal/en_US/94dcc05587bfb7cf3b581917f3dd6662df5eb212/assets/img/base-wallpaper.jpg"
+},
+{
+    "id" : "6",
+    "Champion" : "Lucian",
+    "Role" : "Marksman",
+    "Image" : "http://na.leagueoflegends.com/sites/default/files/upload/pvp.net/lucian_pvp_13.jpg"
+},
+{
+    "id" : "7",
+    "Champion" : "Thresh",
+    "Role" : "Support",
+    "Image" : "http://img06.deviantart.net/227c/i/2014/288/5/b/thresh___league_of_legends_by_yoshiyaki-d82zkei.jpg"
+},
+{
+    "id" : "8",
+    "Champion" : "Gragas",
+    "Role" : "Bruiser",
+    "Image" : "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_6.jpg"
+},
+{
+    "id" : "9",
+    "Champion" : "Aatrox",
+    "Role" : "Jungler",
+    "Image" : "https://i.ytimg.com/vi/T68kzENkq0U/maxresdefault.jpg"
+},
+{
+    "id" : "10",
+    "Champion" : "Azir",
+    "Role" : "Mage",
+    "Image" : "http://img13.deviantart.net/c776/i/2016/109/1/1/azir___league_of_legends_by_oma_om-d9zivs7.jpg"
+}
+]

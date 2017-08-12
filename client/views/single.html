@@ -1,0 +1,13 @@
+<div ng-controller="SingleChampion">
+    <div class="border">
+            <p id="info"><b>Champion</b> : {{single.Champion}}</p>
+            <br>
+            <p id="info"><b>Role</b> : {{single.Role}}</p>
+         
+
+          <div id="imageContainer">
+            <img ng-click="getChampion(post.id)"src="{{single.Image}}" style="height:300px";"width:300px">  
+          </div>
+           </div>
+           <a href="/#/api"><button id="homeButton">Home</button></a>
+    </div>
