@@ -12,10 +12,6 @@ app.route('/api')
     .get(function(req,res){
         console.log('get req')
         res.sendFile(JSONPath);
-        // fs.readFile(JSONPath, 'utf-8',function(err,file){
-        //     var results=JSON.parse(file)
-        //     res.send(results)
-        // })
     })
 app.route('/api/:id')
     .get(function(req,res){
