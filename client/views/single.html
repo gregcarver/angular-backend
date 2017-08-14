@@ -3,9 +3,19 @@
     <div class="border">
             <p id="info"><b>Champion</b> : {{single.Champion}}
             <br>
+            "{{single.Title}}"
+            <br>
             <b>Role</b> : {{single.Role}}</p>
          
             <span id="info">{{single.Biography}}</span>
+                      <div id="abilityContainer">
+            <span style="font-size:24px;">Abilities:</span><br>
+            <span><img ng-src="{{single.Ability0}}" style="height:35px";"width:35px"></span> : <span>{{single.Ability0Name}}</span><br>
+            <span><img ng-src="{{single.Ability1}}" style="height:35px";"width:35px"></span> : <span>{{single.Ability1Name}}</span><br>
+            <span><img ng-src="{{single.Ability2}}" style="height:35px";"width:35px"></span> : <span>{{single.Ability2Name}}</span><br>
+            <span><img ng-src="{{single.Ability3}}" style="height:35px";"width:35px"></span> : <span>{{single.Ability3Name}}</span><br>
+            <span><img ng-src="{{single.Ability4}}" style="height:35px";"width:35px"></span> : <span>{{single.Ability4Name}}</span><br>
+          </div>
           <div id="imageContainer">
             <img ng-click="getChampion(post.id)"src="{{single.Image}}" style="height:200px";"width:200px">  
           </div>

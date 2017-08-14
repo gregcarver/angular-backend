@@ -6,7 +6,17 @@
             <div id="info">
                 <b>Champion</b> : {{post.Champion}}
                 <br>
+                "{{post.Title}}"
+                <br>
                 <b>Role</b> : {{post.Role}}
+          </div>
+                    <div id="abilityContainer">
+            <span style="font-size:24px;">Abilities:</span><br>
+            <span><img ng-src="{{post.Ability0}}" style="height:35px";"width:35px"></span> : <span>{{post.Ability0Name}}</span><br>
+            <span><img ng-src="{{post.Ability1}}" style="height:35px";"width:35px"></span> : <span>{{post.Ability1Name}}</span><br>
+            <span><img ng-src="{{post.Ability2}}" style="height:35px";"width:35px"></span> : <span>{{post.Ability2Name}}</span><br>
+            <span><img ng-src="{{post.Ability3}}" style="height:35px";"width:35px"></span> : <span>{{post.Ability3Name}}</span><br>
+            <span><img ng-src="{{post.Ability4}}" style="height:35px";"width:35px"></span> : <span>{{post.Ability4Name}}</span><br>
           </div>
           <div id="imageContainer">
             <img ng-click="getChampion(post.id)"src="{{post.Image}}" style="height:200px";"width:200px">  
