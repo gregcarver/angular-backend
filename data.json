@@ -3,7 +3,8 @@
     "Champion" : "Rakan",
     "Role" : "Support",
     "Image" : "https://i.ytimg.com/vi/YWng39USD1E/maxresdefault.jpg",
-    "Biography" : "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties, and anarchic music. Few would suspect this energetic, traveling showman is also partner to the rebel Xayah Xayah, and is dedicated to her cause."
+    "Biography" : "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties, and anarchic music. Few would suspect this energetic, traveling showman is also partner to the rebel Xayah Xayah, and is dedicated to her cause.",
+    "Spotlight" : "https://www.youtube.com/embed/HYWNOHM1fSk"
 },
 {
     "id" : "2",
@@ -39,6 +40,7 @@
     "Role" : "Marksman",
     "Image" : "http://na.leagueoflegends.com/sites/default/files/upload/pvp.net/lucian_pvp_13.jpg",
     "Biography" : "Lucian wields relic weapons imbued with ancient power and stands a stalwart guardian against the undead. His cold conviction never wavers, even in the face of the maddening horrors he destroys beneath his hail of purifying fire. Lucian walks alone on a grim mission: to purge the spirits of those ensnared in undeath, his eternal beloved among them."
+    
 },
 {
     "id" : "7",

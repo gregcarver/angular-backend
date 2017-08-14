@@ -1,13 +1,13 @@
 var app = angular.module('myApp', ["ngRoute"]);
 app.config(function($routeProvider){
     $routeProvider
-    .when('/api/',{
+    .when('/',{
         templateUrl: "../views/home.html"
     })
-    .when('/api/:id',{
+    .when('/champions/:id',{
         templateUrl: "../views/single.html"
     })
-    .when('/api/role/:Role',{
+    .when('/champions/role/:Role',{
         templateUrl: "../views/role.html"
     })
 });
@@ -21,11 +21,11 @@ app.controller("ChampionGetController",['$scope', '$http','$location',function($
     });
             $scope.getChampion=function(id){
             console.log(id)
-            $location.path("/api/" + id)
+            $location.path("/champions/" + id)
         };
             $scope.getRole=function(Role){
             console.log(Role)
-            $location.path("/api/role/" + Role)
+            $location.path("/champions/role/" + Role)
         };
 }])
 app.controller("SingleChampion",['$scope', '$routeParams', '$http', function($scope, $routeParams, $http){
