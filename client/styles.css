@@ -1,7 +1,7 @@
 #imageContainer{
     height:200px;
     width:200px;
-    margin:auto;
+    margin-left:30%;
     margin-bottom:1.5em;
     margin-top:1.5em;
 }
@@ -22,5 +22,5 @@
     width:200px;
     background-color:green;
     color:white;
-    margin-left:50%;
+    margin-left:45%;
 }
